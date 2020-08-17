@@ -1,0 +1,37 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    @media #{$brk-tablet} {
+      padding: 10px 30px;
+    }
+  }
+  
+  .default {
+    background-color: $greenish-bleu;
+  }
+  
+  .error {
+    background-color: #e4757a;
+  }
+  
+  .info {
+    background-color: $purple;
+  }
+  
+  .success {
+    background-color: #63cc82;
+  }
+  
+  .warning {
+    background-color: #fd7856;
+  }
