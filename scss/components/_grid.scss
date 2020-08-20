@@ -21,7 +21,15 @@
     flex-basis: 100%;
     min-height: 25px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: $br;
+
+    @media #{$brk-tablet} {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+    }
+
   }
   
   .theme.col-1 {
@@ -29,7 +37,7 @@
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $crevette;
   }
   
   .theme.col-3 {

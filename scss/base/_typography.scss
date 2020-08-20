@@ -3,7 +3,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $stack-sans-serif;
     color: $mouse-grey;
     box-sizing: border-box;
   }
@@ -37,11 +37,13 @@
   }
   
   .blockquote {
-    font-size: 1.5em;
-    font-weight: 300;
+
+    @include text(1.5em, $weight: 300, $color: $green-turquoise);
+   
+    
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid $green-turquoise;
-    border-radius: 5px;
+    border-left: 8px solid;
+    border-radius: $br;
   }

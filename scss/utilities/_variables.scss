@@ -1,12 +1,46 @@
+
+//Color
+
 $greenish-bleu: #51ddfc;
 $green-turquoise: #58e1c1;
 $mouse-grey: #777;
 $pistachio: #63cc82;
 $purple: #927bc1;
 $white: #fff;
+$crevette: #fd7856;
 
+//lighten function
+
+$green-turquoise-light: lighten($green-turquoise, 25%);
 
 
 // Media query breakpoints
 
 $brk-tablet : '(min-width: 768px)';
+
+
+// Font Stacks
+
+$stack-sans-serif : 'Lato', sans-serif;
+
+
+// Border radius
+
+$br: 5px;
+
+
+//images width
+
+$mrg: 10px;
+$wdth: 100%;
+
+
+//Loops
+
+@for $i from 1 through 12 {
+    .theme.col-#{$i} {
+        background-color: adjust-hue($crevette, $i * 20);
+    }
+}
+
+
