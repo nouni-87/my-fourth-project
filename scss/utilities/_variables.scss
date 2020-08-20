@@ -8,11 +8,20 @@ $pistachio: #63cc82;
 $purple: #927bc1;
 $white: #fff;
 $crevette: #fd7856;
+$error-btn: #e4757a;
+$success-btn: #63cc82;
+$warning-btn: #fd7856;
+
 
 //lighten function
 
 $green-turquoise-light: lighten($green-turquoise, 25%);
-
+$greenish-bleu-light: lighten($greenish-bleu, 25%);
+$purple-light: lighten($purple, 25%);
+$error-btn-light: lighten($error-btn, 25%);
+$purple-light: lighten($purple, 25%);
+$success-btn-light: lighten($success-btn, 25%);
+$warning-btn-light: lighten($warning-btn, 25%);
 
 // Media query breakpoints
 

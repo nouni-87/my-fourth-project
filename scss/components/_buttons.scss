@@ -17,21 +17,47 @@
   }
   
   .default {
-    background-color: $greenish-bleu;
+        background-color: $greenish-bleu;
+
+      &:hover {
+        background-color: lighten($greenish-bleu, 25%);
+        @include hover;
+    }
   }
   
   .error {
-    background-color: #e4757a;
+        background-color: $error-btn;
+
+    &:hover {
+        background-color: lighten($error-btn, 25%);
+        @include hover;
+    }
   }
   
   .info {
-    background-color: $purple;
+        background-color: $purple;
+
+    &:hover {
+        background-color: lighten($purple, 25%);
+        @include hover;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $success-btn;
+
+    &:hover {
+        background-color: lighten($success-btn, 25%);
+        @include hover;
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+        background-color: $warning-btn;
+
+    &:hover {
+        background-color: lighten($warning-btn, 25%);
+        @include hover;
+    }
+
   }
